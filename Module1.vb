@@ -184,6 +184,7 @@ Module Module1
         Dim YSize = 30
         Console.SetWindowSize(XSize - 0, YSize - 0)
         Console.SetBufferSize(XSize, YSize)
+Console.WriteLine("The Source code of this game can be found at https://github.com/RGFTheCoder/Miner/edit/master/Module1.vb and if you paid for this contact recdeclec.gmmkr@gmail.com")
         Console.WriteLine("Enter Seed:")
         Dim seed As String = Console.Read()
         Dim map(,) As Integer = Genmap(seed)
